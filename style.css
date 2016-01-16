@@ -1,0 +1,10 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+.heroic {
+  background-color: #900;
+  color: white;
+}
+.heroic h1 {
+  font-size: 10em;
+}
