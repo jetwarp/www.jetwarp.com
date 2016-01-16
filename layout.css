@@ -13,4 +13,19 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 128px 0;
+}
+.heroic h1 {
+  margin: 0;
+}
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 16px;
+}
+nav li {
+  display: inline-block;
+  margin: 12px;
 }
