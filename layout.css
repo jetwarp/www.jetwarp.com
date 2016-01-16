@@ -1,0 +1,15 @@
+body {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
