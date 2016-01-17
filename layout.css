@@ -15,13 +15,23 @@ section {
   align-items: center;
   padding: 128px 0;
 }
-.heroic h1 {
+.heroic p {
   margin: 0;
+  font-size: 2em;
+}
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0 12px;
 }
 nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+  align-items: center;
   margin: 0;
   padding: 0 16px;
 }
