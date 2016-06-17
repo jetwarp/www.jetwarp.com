@@ -1,16 +1,20 @@
+html {
+  background-color: #001;
+}
 body {
   font-family: Open Sans, sans-serif;
 }
 .heroic {
-  background-color: #900;
+  background-color: #556;
   color: white;
 }
 header h1 {
+  font-size: 4em;
   font-family: Racing Sans One, sans-serif;
 }
 header {
-  background-color: #c00;
-  color: white;
+  background-color: #334;
+  color: #ddd;
 }
 nav a {
   color: inherit;
