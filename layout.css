@@ -22,8 +22,9 @@ section {
 }
 header {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: space-between;
+  align-items: center;
 }
 header h1 {
   margin: 0 12px;
@@ -31,7 +32,6 @@ header h1 {
 nav ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
   align-items: center;
   margin: 0;
   padding: 0 16px;
