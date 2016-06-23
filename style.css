@@ -12,7 +12,7 @@ header h1 {
   font-size: 4em;
   font-family: Racing Sans One, sans-serif;
 }
-header {
+header, footer {
   background-color: #334;
   color: #ddd;
 }

@@ -20,7 +20,7 @@ section {
   margin: 0;
   font-size: 2em;
 }
-header {
+header, footer {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
