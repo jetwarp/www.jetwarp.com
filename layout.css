@@ -48,13 +48,12 @@ footer li {
 }
 nav {
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 nav ul {
   display: flex;
-  flex-flow: row-wrap;
-  /*align-items: center;*/
+  flex-flow: row wrap;
   justify-content: space-between;
   margin: 0;
   padding: 0 16px;
@@ -68,7 +67,7 @@ iframe {
 }
 .first,.second {
   display: flex;
-  flex-wrap: row-wrap;
+  flex-flow: row wrap;
 }
 table {
   width: 400px;
