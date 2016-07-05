@@ -4,13 +4,8 @@ html {
 body {
   font-family: Open Sans, sans-serif;
 }
-a {
-  color: currentColor;
-}
 a:hover {
-  text-decoration: none;
   color: white;
-  font-size: 1.25em;
 }
 .heroic {
   background-color: #556;
