@@ -1,0 +1,35 @@
+doctype
+html
+  head
+    block head
+      block title
+        title JetWarp
+      block styles
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Racing+Sans+One")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
+        link(rel="stylesheet" href="layout.css")
+        link(rel="stylesheet" href="style.css")
+  body
+    .navbar: nav
+      ul.mainmenu
+        li: a(href="index.html") Home
+        li: a(href="services.html") Services
+        li: a(href="samples.html") Samples
+        li: a(href="mailto:info@jetwarp.com") Contact Us
+        // li: a(href="https://blog.jetwarp.com") Blog
+      ul.social
+        li: a(href="https://twitter.com/jetwarp"): i.fa.fa-twitter(aria-hidden="true")
+        // li: a(href=""): i.fa.fa-instagram(aria-hidden="true")
+        li: a(href="https://www.jetwarp.com/youtube"): i.fa.fa-youtube(aria-hidden="true")
+        // li: a(href=""): i.fa.fa-linkedin-square(aria-hidden="true")
+    header
+      img(src="chrome-logo.svg")
+      h1 JetWarp
+      h3 It's like being there.
+    block main
+    footer
+      ul
+        li &copy; 2016 all rights reserved JetWarp
+        li: a(href="mailto:") info@jetwarp.com
+    block scripts
