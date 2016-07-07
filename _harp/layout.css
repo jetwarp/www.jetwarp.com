@@ -22,9 +22,18 @@ section {
   max-height:600px;
   margin: 16px;
 }
-.clearfix {
-  display: block;
+.pleat {
+  display: flex;
+  flex-flow: row wrap;
+}
+.pleat .summary, .pleat .preview {
   margin: 16px;
+}
+.pleat .summary {
+  flex: 1;
+}
+.pleat:nth-child(even) .preview {
+  order: 1;
 }
 header, footer {
   display: flex;
@@ -64,10 +73,6 @@ nav li {
 }
 iframe {
   margin: 16px;
-}
-.first,.second {
-  display: flex;
-  flex-flow: row wrap;
 }
 table {
   width: 400px;

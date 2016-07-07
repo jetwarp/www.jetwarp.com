@@ -33,15 +33,14 @@ nav a {
   background-color: #333344;
   color: #ddd;
 }
-.first {
+.pleat:nth-child(odd) {
   background-color: #556;
   color: white;
 }
-.second {
+.pleat:nth-child(even) {
   background-color: #333344;
   color: #ddd;
 }
-
 td {
   border-style: solid;
   border-color: currentColor;
@@ -55,7 +54,6 @@ td {
      padding: 10px 20px;
      text-align: center;
 }
-
 .button-link:hover {
      background: #333344;
      color: white;
