@@ -1,3 +1,7 @@
+mixin fa-icon-link(icon, name, url)
+  a(href=url)
+    i(class="fa fa-" + icon, aria-hidden="true")
+    span.sr-only= name
 doctype
 html
   head
@@ -19,10 +23,10 @@ html
         li: a(href="mailto:info@jetwarp.com") Contact Us
         // li: a(href="https://blog.jetwarp.com") Blog
       ul.social
-        li: a(href="https://twitter.com/jetwarp"): i.fa.fa-twitter(aria-hidden="true") Twitter
-        // li: a(href=""): i.fa.fa-instagram(aria-hidden="true") Instagram
-        li: a(href="https://www.jetwarp.com/youtube"): i.fa.fa-youtube(aria-hidden="true") YouTube
-        // li: a(href=""): i.fa.fa-linkedin-square(aria-hidden="true") LinkedIn
+        li: +fa-icon-link("twitter", "Twitter", "https://twitter.com/jetwarp")
+        // li: +fa-icon-link("instagram", "Instagram", "")
+        li: +fa-icon-link("youtube", "YouTube", "https://www.jetwarp.com/youtube")
+        // li: +fa-icon-link("linkedin", "LinkedIn", "")
     header
       img(src="/chrome-logo.svg")
       h1 JetWarp
