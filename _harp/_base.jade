@@ -1,6 +1,6 @@
 mixin fa-icon-link(icon, name, url)
   a(href=url)
-    i(class="fa fa-" + icon, aria-hidden="true")
+    i(class="fa fa-" + icon, title=name, aria-hidden="true")
     span.sr-only= name
 doctype
 html
