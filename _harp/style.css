@@ -33,9 +33,12 @@ nav a {
   background-color: #333344;
   color: #ddd;
 }
-.pleat:nth-child(odd) {
+.pleat:nth-child(odd), .tier {
   background-color: #556;
   color: white;
+}
+.tier {
+  border-radius: 5px;
 }
 .pleat:nth-child(even) {
   background-color: #333344;
@@ -46,16 +49,16 @@ td {
   border-color: currentColor;
 }
 .button-link {
-     background-color: white;
-     border: 0;
-     border-radius: 5px 15px;
-     text-decoration: none;
-     color: black;
-     padding: 10px 20px;
-     text-align: center;
+  background-color: white;
+  border: 0;
+  border-radius: 5px 15px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
 }
 .button-link:hover {
-     background: #333344;
-     color: white;
-     text-decoration: none;
+  background: #333344;
+  color: white;
+  text-decoration: none;
 }

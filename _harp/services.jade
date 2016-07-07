@@ -1,5 +1,8 @@
 extends _base
 
+block title
+  title JetWarp: Services
+
 block main
   section.pleat
     img.preview(src="http://lorempixel.com/400/400/cats/Place-Holder/")
@@ -50,20 +53,38 @@ block main
         choose. By being able to move through the property and interact with
         it, people are more likely to connect and become engaged.
         <a href="samples.html">Check it out!</a>
-  section.pleat
-    img.preview(src="http://lorempixel.com/400/400/cats/Place-Holder/")
-    .summary
-      h2 The Process
-      table
-        tr
-          td Basic Package
-          td Spaceholder
-        tr
-          td Per-Room
-          td Spaceholder
-        tr
-          td Other packages</td>
-          td: a(href="mailto:info@jetwarp.com") Contact us for a quote!
+  section.full-width-text
+    h2 Tiers and Package Options
+    .tier-list
+      .tier
+        h3 Base Package
+        p.
+          Unlike many similar providers in this space, JetWarp offers
+          <em>all</em> clients a complete representative point-by-point tour
+          of your property, without limits or redundancies in the number of
+          points to be photographed. JetWarp always captures as many panoramas
+          as are needed to give online visitors the sense that they've fully
+          toured the grounds, and offers a 100% money-back satisfaction
+          guarantee.
+      .tier
+        h3 Full Facility
+        p.
+          For large-scale properties, such as office buildings, our base
+          offering will include a series of detailed captures equivalent to a
+          fully-representative linear walkthrough of the facility's space.
+          However, at a more premium price point, JetWarp will remain on-site
+          past the base walkthrough, collecting and assembling material "off
+          the beaten path", to provide an experience that allows browsers to
+          view <em>all</em> of a facility's visible space.
+      .tier
+        h3 Bulk Discounts
+        p.
+          For realtors who have a large portfolio of properties they wish to
+          exhibit through JetWarp, we offer volume discounts for clients
+          scheduling five or more consecutive shoots within three days of each
+          other, as well as on-call subscription plans for a flexible range of
+          properties each month.
+    a.button-link(href="mailto:info@jetwarp.com") Contact us for pricing
 
   section.pleat
     img.preview(src="http://lorempixel.com/400/400/cats/Place-Holder/")
@@ -72,4 +93,4 @@ block main
       p.
         We'd love to chat with you and find out about your virtual tour needs.
         Please feel free to get in touch!
-      a(href="mailto:info@jetwarp.com") info@jetwarp.com
+      a.button-link(href="mailto:info@jetwarp.com") info@jetwarp.com

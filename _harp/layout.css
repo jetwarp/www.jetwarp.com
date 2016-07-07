@@ -22,15 +22,26 @@ section {
   max-height:600px;
   margin: 16px;
 }
-.pleat {
+.pleat, .tier-list {
   display: flex;
   flex-flow: row wrap;
+}
+.tier-list {
+  margin: 1em 0;
+}
+.tier {
+  flex: 1;
+  margin: 16px;
+  padding: 0 16px;
 }
 .pleat .summary, .pleat .preview {
   margin: 16px;
 }
 .pleat .summary {
   flex: 1;
+}
+.pleat .preview, .pleat .preview img {
+  max-height: 400px;
 }
 .pleat:nth-child(even) .preview {
   order: 1;
